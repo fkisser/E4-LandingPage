@@ -172,13 +172,12 @@ p {
 
 .cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
-    flex-wrap: wrap;
     gap: 2rem;
 }
 .card{
-    width: 30rem;
+    width: 25rem;
     height: 29rem;
     padding: 4rem 3rem;
     display: flex;
@@ -226,6 +225,9 @@ p {
 .touple{
     display: flex;
     gap: 1rem;
+}
+#contact iframe{
+    width: 100%;
 }
 
 
